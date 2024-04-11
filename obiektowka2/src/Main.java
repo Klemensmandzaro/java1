@@ -3,6 +3,7 @@ public class Main {
         //Zadanie_1.zrob_zadanie();
         //Zadanie_2.zrob_zadanie();
         //Zadanie_3.zrob_zadanie();
-        Zadanie_4.zrob_zadanie();
+        //Zadanie_4.zrob_zadanie();
+        Zadanie_5.zrob_zadanie();
     }
 }

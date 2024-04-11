@@ -19,7 +19,7 @@ public class Zawodnik {
 
     public void biegnij(){
         Random gg = new Random();
-        double dystans = gg.nextInt(11)+2;
+        double dystans = gg.nextDouble(this.predkosc_maksymalna-this.predkosc_minimalna)+this.predkosc_minimalna;
         this.odleglosc+=dystans;
     }
 }
