@@ -6,6 +6,7 @@ public class Main {
         //Zadanie2.zrob_zadanie();
         //Zadanie3.zrob_zadanie();
         //Zadanie4.zrob_zadanie();
-        Zadanie5.zrob_zadanie();
+        //Zadanie5.zrob_zadanie();//i zadanie 6
+        Zadanie7.zrob_zadanie();
     }
 }

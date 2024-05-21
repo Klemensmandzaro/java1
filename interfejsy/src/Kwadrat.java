@@ -1,4 +1,4 @@
-public class Kwadrat implements Figura{
+public class Kwadrat implements Figura, Comparable {
     int x;
 
     public Kwadrat(int x) {
@@ -6,12 +6,17 @@ public class Kwadrat implements Figura{
     }
 
     @Override
-    public void ObliczPole() {
-        System.out.println(this.x*this.x);
+    public int ObliczPole() {
+        return (this.x*this.x);
     }
 
     @Override
-    public void ObliczObwod() {
-        System.out.println(this.x*4);
+    public int ObliczObwod() {
+        return (this.x*4);
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        return this.ObliczPole() - ((Kwadrat) o).ObliczPole();
     }
 }
